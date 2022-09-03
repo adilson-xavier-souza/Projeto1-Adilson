@@ -29,3 +29,13 @@ para ele autorizar a publicação dos aquivos
 .
 
 
+para atualizar arquivos ou versões, execute:
+
+git status
+git add .
+git commit - m "mais uma versão"
+git push
+-------
+git reflog  -> para visualizar versões do seu projeto commitados
+
+
