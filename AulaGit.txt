@@ -38,4 +38,50 @@ git push
 -------
 git reflog  -> para visualizar versões do seu projeto commitados
 
+para voltar versoes anteriores apos uma atualização mal sucedida use os comandos:
+
+
+git reflog
+95cf286 (HEAD -> master, origin/master) HEAD@{0}: commit: versao 1.0
+e6e78c3 HEAD@{1}: commit: testando uma nova versão
+f01bdfd HEAD@{2}: commit (initial): commit inicial
+
+utilize um dos IDs acima para voltar a versão atraves do comando:
+
+git reset --hard <agora vc coloca a versão que quer voltar> ex: e6e78c3
+
+e esta versão voltara a versão que anterior
+
+p.S. só funciona se vc executou o comando git commit -m "texto"
+
+entendendo sobre BRANCH
+
+BRANCH pro exemplo minha BRANCH MASTER
+
+posso ter varias BRANCHs
+
+ex. 2 BRANCHS sendo usadas como DESENVOLVIMENTO e 1 BRANCH sendo usada comO PRODUÇÃO	
+
+atraves do comando MERGE eu consigo colocar a BRANCH que esta testada e funcionando que esta
+no DESENVOLVIMETO PARA PRODUÇÃO
+
+git branch  -> mostra quais branchs existem
+
+por usabilidade, determina que se use branch que estão em desenvolvimento como "staging"
+
+para add uma nova branch execute:
+
+git branch staging
+
+para mudar de branch execute:
+git checkout <nome da branch> no nosso caso staging
+
+qdo mudado a nova branch ficará com asterisco e na cor verde
+
+.-------------
+
+
+
+
+
 
