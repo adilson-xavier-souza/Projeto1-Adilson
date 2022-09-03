@@ -3,3 +3,29 @@ Git status  -> para verificar os arquivos que estão no GIt
 Git ADD " " entre aspas para adicionar um arquivo novo. Ex.: Git Add "texto.txt"
 
 git ADD . -> para Adicionar todos os arquivo dentro de uma determinada pasta para o GIT
+
+Criar versões de código no GIT
+
+git commit -m "commmit inicial"
+
+Para subir os arquivos para nuvem
+
+criar repositorio no site do github
+
+apos criar e tornar ele publico ou privado, copiar o link e ir na linha de comando e digitar?
+
+git remote add origin <colar aqui o link do seu repositorio que criou no github>
+
+ex:
+
+git remote add origin https://github.com/adilson-xavier-souza/Projeto1-Adilson
+
+apos isso
+
+digite : git push --set-upstream origin master
+
+para ele autorizar a publicação dos aquivos
+
+.
+
+
