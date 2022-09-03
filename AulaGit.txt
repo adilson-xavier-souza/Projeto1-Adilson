@@ -1,0 +1,5 @@
+Git status  -> para verificar os arquivos que estão no GIt
+
+Git ADD " " entre aspas para adicionar um arquivo novo. Ex.: Git Add "texto.txt"
+
+git ADD . -> para Adicionar todos os arquivo dentro de uma determinada pasta para o GIT
